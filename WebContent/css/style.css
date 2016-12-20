@@ -1,0 +1,26 @@
+/*HEADER*/
+body {
+	
+}
+
+#header {
+	padding-top: 80px;
+	padding-bottom: 40px;
+	text-transform: uppercase;
+}
+
+#header h1 {
+	color: #FF0033;
+}
+/*content*/
+.panel {
+	width: 80%;
+}
+
+.form-group {
+	padding-top: 20px;
+}
+
+.ChuaNhapValue {
+	color: red;
+}

@@ -1,0 +1,272 @@
+/*Cua CHung*/
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+/*header*/
+#header nav {
+	padding-top: 10px;
+	padding-bottom: 40px;
+	text-align: center;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 2);
+}
+
+/*content*/
+.jumbotron {
+	background: #FFFFFF;
+	padding-top: 140px;
+}
+
+.danhsach ul {
+	background-color: #E6E6FA;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.danhsach ul li {
+	border-bottom: 2px solid #EEEEEE;
+}
+
+.danhsach ul li a:hover {
+	color: red;
+}
+
+.danhsach ul li a {
+	color: blue;
+}
+
+.danhsach1 {
+	border-left: 2px solid #EEEEEE;
+}
+
+.danhsach2 {
+	background-color: #E6E6FA;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.danhsach2 li a {
+	color: blue;
+}
+
+.danhsach2 li a:hover {
+	color: red;
+}
+
+.danhsach2 li, .danhsachthongbao li, .themcaccauhoi li {
+	border-right: 2px solid #EEEEEE;
+	border-bottom: 2px solid #EEEEEE;
+}
+
+#footer {
+	background: #4F4F4F;
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+	height: 30px;
+}
+
+.ChuaNhapValue {
+	color: red;
+}
+
+table {
+	border-right: 2px solid #EEEEEE;
+	border-left: 2px solid #EEEEEE;
+}
+
+table thead {
+	background: #1C86EE;
+	color: white;
+}
+
+table thead tr th {
+	border-right: 1px solid white;
+}
+
+/*Phan rieng*/
+/*Sinh Vien */
+#phanthi {
+	position: relative;
+	top: 70px;
+	padding: 80px 20px;
+	background: #E6E6FA;
+	text-align: center;
+}
+
+#caibangsinhvien  thead, #caibangsinhvien  tbody {
+	display: block;
+}
+
+#caibangsinhvien tbody {
+	height: auto;
+	max-height: 400px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#caibangsinhvien .cot1 {
+	text-align: center;
+	width: 420px;
+}
+
+#caibangsinhvien .cot2, #caibangsinhvien .cot3, #caibangsinhvien .cot4 {
+	text-align: center;
+	width: 230px;
+}
+
+#caibangsinhvien_XemLichThi  thead, #caibangsinhvien_XemLichThi  tbody {
+	display: block;
+}
+
+#caibangsinhvien_XemLichThi tbody {
+	height: auto;
+	max-height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#caibangsinhvien_XemLichThi .cot1, #caibangsinhvien_XemLichThi .cot2,
+	#caibangsinhvien_XemLichThi .cot3, #caibangsinhvien_XemLichThi .cot4 {
+	text-align: center;
+	width: 280px;
+}
+
+#caibangsinhvien_XemDiemThi  thead, #caibangsinhvien_XemDiemThi  tbody {
+	display: block;
+}
+
+#caibangsinhvien_XemDiemThi tbody {
+	height: auto;
+	max-height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#caibangsinhvien_XemDiemThi .cot1 {
+	text-align: center;
+	width: 60px;
+}
+
+#caibangsinhvien_XemDiemThi .cot3 {
+	text-align: center;
+	width: 200px;
+}
+
+#caibangsinhvien_XemDiemThi .cot2, #caibangsinhvien_XemDiemThi .cot4,
+	#caibangsinhvien_XemDiemThi .cot5, #caibangsinhvien_XemDiemThi .cot6,
+	#caibangsinhvien_XemDiemThi .cot7, #caibangsinhvien_XemDiemThi .cot8 {
+	text-align: center;
+	width: 140px;
+}
+/*lam bai thi*/
+#ThongTinSinhVienDangThi {
+	padding-top: 140px;
+	padding-bottom: 20px;
+}
+
+#ThongTinSinhVienDangThi .form-inline {
+	background: #E6E6FA;
+	padding: 25px 25px;
+	color: #0000CC;
+	padding-left: 120px;
+}
+
+#ThongTinSinhVienDangThi .form-inline .form-group {
+	padding-right: 30px;
+}
+
+.cautraloi div {
+	color: #AAAAAA;
+	padding-bottom: 30px;
+}
+
+.socauhoi li {
+	padding-right: 25px;
+}
+
+#DinhHuong {
+	padding-bottom: 50px;
+}
+
+/*Nguoi Ra De Thi*/
+#taodethi, #ChinhSuaDeThi {
+	padding-top: 30px;
+}
+
+#caibangnguoiradethi {
+	padding-top: 70px;
+}
+/*Nguoi Quan Tri Ky Thi*/
+#caibangnguoiquantrikythi {
+	padding-top: 60px;
+}
+
+#molopthi {
+	padding-bottom: 100px;
+}
+
+#formTaoLichThi, #formTaoLichThiChinhSua {
+	color: blue;
+	background: #E6E6FA;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#vietthongbao {
+	padding: 40px 0px;
+}
+
+#vietthongbao form {
+	background: #E6E6FA;
+	padding: 20px 30px;
+}
+/*Nguoi Quan Tri Ngan Hang Cau Hoi*/
+#themtungcau, #themfile {
+	padding-top: 30px;
+	padding-bottom: 60px;
+}
+
+#ChinhSuaCauHoi {
+	padding-bottom: 80px;
+}
+
+#caibangnganhangcauhoi {
+	padding-top: 50px;
+}
+/*Admin*/
+#caibangAdmin, #ThemThanhVien, #ThemThanhVienChinhSua,
+	#ThemThanhVienFile {
+	padding-top: 50px;
+}
+
+#NhapThongTinChungUser .form-inline, #NhapThongTinChungUserChinhSua .form-inline
+	{
+	padding: 20px;
+	background: #E6E6FA;
+	color: #0000CC;
+}
+
+#NhapThongTinChungUser .form-inline div, #NhapThongTinChungUserChinhSua .form-inline div
+	{
+	padding: 20px 0 0px 20px;
+}
+
+#NhapThongTinRiengUser .form-inline div, #NhapThongTinRiengUserChinhSua .form-inline div
+	{
+	padding: 20px 0 0px 20px;
+}
+
+#NhapThongTinRiengUser .form-inline, #NhapThongTinRiengUserChinhSua .form-inline
+	{
+	padding: 20px;
+	background: #E6E6FA;
+	color: #0000CC;
+}
+
+#ThemThanhVienFile .form-inline {
+	padding: 20px 20px;
+	background: #E6E6FA;
+	color: #0000CC;
+}
